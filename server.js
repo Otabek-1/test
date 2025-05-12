@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // So‘rov yuboriladigan URL
-const TARGET_URL = "https://railway.com/template/exBa-G?referralCode=Efrulj/test"; // o'zingizga kerakli URL kiriting
+const TARGET_URL = "https://mtest-9y8k.onrender.com/test"; // o'zingizga kerakli URL kiriting
 
 // Har 30 sekundda fetch qilish funksiyasi
 async function sendRequest() {
